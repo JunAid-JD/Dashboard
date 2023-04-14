@@ -1,0 +1,50 @@
+.Navigation {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    width: fit-content;
+}
+
+
+.navigationsmalllogo {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.navigationsmalllogo img {
+        width: 50px;
+}
+
+
+.Navigation .smallnavul {
+    list-style: none;
+    display: grid;
+    place-items: center;
+}
+
+.Navigation ul li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+
+.Navigation ul li img {
+    width: 22px;
+}
+
+.getstartedmodal {
+    border-radius: 10px;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+.getstartedmodal img {
+    width: 25px;
+}

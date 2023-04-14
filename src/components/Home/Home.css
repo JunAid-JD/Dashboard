@@ -1,0 +1,175 @@
+.home{
+    display: grid;
+    grid-template-columns: 13fr 2fr;
+    gap: .5rem;
+    margin-top: 1rem;
+}
+
+.homeheader{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.username{
+        font-weight: 700;
+            font-family: system-ui;
+}
+.search{
+    display: flex;
+        background: black;
+        color: #8f8b8b;
+        align-items: center;
+        padding: .3rem 0.5rem;
+        justify-content: space-between;
+        border-radius: 30px;
+    width: 62%;
+}
+
+
+.search input{
+        border: none;
+            background: none;
+            margin: 0;
+            padding: 0;
+            outline: none;
+            color: #8f8b8b;
+}
+
+.search button{
+    border-radius: 10px;
+    border-radius: 10px;
+        padding: 2px 15px;
+}
+
+
+
+.homecontent{
+    display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 1rem;
+        margin-top: 1rem;
+}
+
+
+#socialmediabox{
+grid-area: 2/2/2/4;
+}
+.socialicons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.css-1tvvug4 {
+width: 20vw;
+}
+
+.wochart img{
+    width: 20vw; 
+     height: 130px;
+    /* height: 130px;
+    width: 275px; */
+}
+
+.rightbar{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.socialheader{
+    display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            align-items: center;
+}
+
+.homesidebar{
+    max-width: 182px;
+}
+
+@media screen and (max-width:1280px) {
+    .home{
+    grid-template-columns: 1fr;
+    }
+        .css-1tvvug4 {
+            width: auto;
+        }
+        .rightbar{
+            flex-direction: row;
+                justify-content: space-between;
+                    flex-wrap: wrap;
+        }
+                .homesidebar {
+                    max-width: none;
+                }
+}
+
+
+
+
+@media screen and (max-width:1100px) {
+.homecontent {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+}
+#socialmediabox {
+    grid-area: 2/2;
+}
+
+.wochart img {
+        width: 40vw;
+            height: 29vh;
+}
+}
+
+
+@media screen and (max-width:800px) {
+    #socialmediabox {
+grid-area: 3/1/3/3;
+        }
+                .wochart img {
+                    width: 40vw;
+                }
+               
+}
+
+
+
+@media screen and (max-width:740px) {
+
+
+    .homecontent {
+            display: grid;
+            grid-template-columns:  1fr;
+        }
+.wochart img {
+        width: 70vw;
+    }
+
+ #socialmediabox {
+     grid-area: 5;
+ }
+  .search {
+      width: 90%;
+  }
+}
+
+
+
+@media screen and (max-width:450px) {
+.socialheader {
+    grid-template-columns: 1fr 2fr ;
+}
+#earningdiv{
+    position: relative;
+        bottom: 10rem;
+}
+#earningprofit{
+        position: relative;
+            bottom: 4rem;
+            left: 13rem;
+}
+}

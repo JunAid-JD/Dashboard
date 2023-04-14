@@ -1,0 +1,135 @@
+
+.automation{
+    background-color: rgba(246, 246, 246, 0.748);
+    padding: 30px;
+}
+
+
+.automationHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.automationHeader h1 {
+    font-weight: 300;
+}
+
+.automationHeader p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.automationcards{
+ display: flex;
+ /* align-items: center; */
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+
+.automationcards .box{
+    width: 45%;
+}
+
+.automationcards h4{
+    font-family: sans-serif;
+        font-weight: 700;
+        font-size: 17px;
+}
+.statusbtn{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.automationcardparagraph{
+    background-color: rgba(246, 246, 246, 0.748);
+    padding: 5px 3px;
+    font-size: 15px;
+    color: grey;
+}
+
+
+.automationcardbtns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.customerReminder{
+    display: flex;
+    align-items: baseline;
+    margin-top: 30px;
+}
+.customerReminder input{
+    width: 80px;
+    margin: 0 10px;
+}
+.customerReminder select {
+    width: 110px;
+    margin: 0 10px;
+}
+
+.customerReviewReminder{
+        display: flex;
+            align-items: baseline;
+}
+.customerReviewReminder input{
+    width: 80px;
+    margin: 2px 10px;
+}
+
+
+
+
+
+@media screen and (max-width:900px) {
+.automationcards {
+    flex-direction: column;
+}
+.automationcards .box {
+    width: auto;
+}
+}
+
+
+
+@media screen and (max-width:700px) {
+/* .automationcardbtns {
+    flex-direction: column;
+} */
+.automationcards .box {
+    width: fit-content;
+}
+}
+
+
+@media screen and (max-width:450px) {
+    .automation {
+            padding: 10px;
+        }
+                .customerReminder input {
+                    width: 60px;
+
+                }
+
+
+
+                                .automationHeader h1 {
+                                    font-size: 25px;
+                                }
+}
+
+
+
+@media screen and (max-width:450px) {
+.customerReminder input {
+        margin: 0px;
+                    width: 40px;
+    }
+
+
+}

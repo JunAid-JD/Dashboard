@@ -1,0 +1,190 @@
+ 
+
+ .login{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+ }
+ 
+ 
+ 
+ .loginleft,.loginright{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+ }
+ 
+
+ .loginform{
+    width: 70%;
+    /* text-align: left; */
+ }
+ .loginform label{
+    display: block;
+   
+ }
+ .loginform .label{
+    margin-top: 1.5rem;
+ }
+ 
+
+.loginlefthead {
+   margin-top: 2rem;
+   margin-bottom: 3rem;
+}
+
+ .loginlefthead h3{
+    font-size: 20px;
+ }
+
+.loginlefthead p{
+    margin-top: .5rem;
+}
+
+.loginleft .recapta{
+    margin-top: 2rem;
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+
+ .loginright{
+    background-color: rgba(246, 246, 246, 0.748);
+    /* height: 100vh; */
+ }
+ 
+ 
+ .loginrighthead img{
+    width: 175px;
+    margin-top: 3rem;
+ }
+ 
+
+ .loginrighthead  .loginclose{
+    background-color: black;
+    color: white;
+    position: relative;
+    top: -4rem;
+    right: -10rem;
+ }
+ 
+ .loginrighthead .loginclose :hover{
+    color: black;
+ }
+ 
+ 
+ 
+ 
+ .loginrightbody{
+display: flex;
+align-items: center;
+justify-content: center;
+ }
+
+ .loginrightbody img{
+    width: 450px;
+    margin: 2.5rem 1rem;
+ }
+ 
+ #loginmoveleft{
+background-color: rgb(185, 184, 184);
+color: white;
+ }
+
+
+ #loginmoveright{   
+background-color: black;
+    color: white;
+ }
+ 
+
+ .loginrightfooter{
+    width: 70%;
+ }
+ 
+
+.chaticon{
+   position: relative;
+   top: 3rem;
+   left: 13rem;
+    /* position: absolute; */
+    /* bottom: 1.5rem ; */
+    /* right: 1rem; */
+}
+.chaticon img{
+    width: 80px;
+}
+
+#logindotdot{
+    margin: 1rem 0 3rem;
+}
+
+ 
+ .loginDivider {
+     width: 50%;
+     padding-top: 18px;
+ }
+
+
+
+ .signUp_with {
+     margin-top: 20px;
+     width: 400px;
+ }
+
+ .signUp_with  div{
+            display: flex;
+                margin: auto;
+                width: 80%;
+                padding: 8px;
+            background-color: rgba(246, 246, 246, 0.748);
+                margin-top: 10px;
+                border-radius: 30px;
+                box-sizing: border-box;
+                align-items: center;
+                justify-content: center;
+ }
+
+
+ .signUp_with div>p{
+        margin-left: 8px;
+ }
+
+
+.forgetpassword{
+   display: flex;
+      justify-content: end;
+      margin: 0.5rem 0;
+      font-size: 14px;
+      font-weight: 600;
+}
+.loginform label {
+   margin: 1rem 0 3px 0;
+   font-size: 20px;
+  font-weight: 900;
+}
+
+.loginform input {
+   width: 100%;
+   height: 45px;
+   outline: none;
+   border: none;
+   border: 3px solid gainsboro;
+   border-radius: 10px;
+   font-size: 19px;
+   padding-left: 2%;
+   box-sizing: border-box;
+   background: transparent;
+}
+input:focus{
+   border: 3px solid black;
+}
+
+
+ @media only  screen and (max-width:750px) {
+     .login{
+      grid-template-columns: 1fr
+     }
+ }

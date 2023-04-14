@@ -1,0 +1,40 @@
+.update {
+    display: flex;
+    justify-content: center;
+}
+
+.updatecontent {
+    text-align: start;
+}
+
+
+.updatemain {
+    display: flex;
+    justify-content: center;
+}
+
+.updatemaincontent {
+    text-align: start;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+    max-width: 500px;
+}
+
+.updatemaincontent h3 {
+    font-weight: 800;
+    font-size: 20px;
+    padding-left: .5rem;
+}
+
+.updatemaincontent p {
+    font-size: 10px;
+    margin-top: 1rem;
+    padding-left: .5rem;
+}
+
+
+.updatemainhead {
+    background-color: black;
+    color: white;
+    padding: .5rem;
+}

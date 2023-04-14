@@ -1,0 +1,138 @@
+.header{
+        background: white;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+}
+
+
+.toogler{
+        margin: 0 1rem;
+            cursor: pointer;
+        
+}
+
+.headermain{
+        background: black;
+            color:#b6b1b1;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 10px;
+            width: 100%;
+        padding: 0 1rem;
+}
+
+
+.headerleft{
+        display: flex;
+            align-items: center;
+            gap: .5rem;
+        }
+
+
+ .headermid{
+
+ }       
+
+
+ .headerright{
+        display: flex;
+            align-items: center;
+        }
+.headerright img{
+        width: 16px;
+            margin: 0 0.5rem;
+}
+
+ .userimg img{
+        width: 40px;
+        height: 40px;
+            border-radius: 10px;
+            margin: 0.5rem;
+            object-fit: cover;
+ }
+
+
+
+.notificationdropdown{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+ @media screen and (max-width:1100px) {
+    .toogler {
+        display: none;
+    }
+    #notificationdropdownouter{
+        width: 50vw;
+    }
+         #notificationdropdowninner {
+             width: 45vw;
+         }
+ }
+
+
+
+ @media screen and (max-width: 930px) {
+    .headermid {
+            display: none;
+        }
+ }
+
+
+  @media screen and (max-width: 650px) {
+#notificationdropdownouter {
+        width: 70vw;
+    }
+
+    #notificationdropdowninner {
+        width: 65vw;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .headermain {
+            padding: 0.3rem;
+    }
+    #message,#about{
+        display: none;
+    }
+
+        .headerright img {
+            margin: 0 0.2rem;
+        }
+   #notificationdropdownouter {
+       width: 95vw;
+   }
+
+   #notificationdropdowninner {
+       width: 90vw;
+   }
+  }
+
+ 
+
+  @media screen and (max-width: 400px) {
+.userimg img {
+        width: 30px;
+        height: 30px;
+}
+.headerleft p{
+    display: none;
+}
+.headerleft img{
+width: 30px;
+    height: 30px;
+}
+
+.navigationlogo img {
+    width: 40px;
+}
+.getstartedmodal {
+        padding: 0.5rem !important;
+}
+  }

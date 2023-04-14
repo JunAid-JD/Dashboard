@@ -1,0 +1,38 @@
+.employeviewheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.employeviewtime {
+    display: flex;
+    align-items: center;
+}
+
+.employeview {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    /* gap: 10px; */
+    margin-top: 13px;
+    border-bottom: 1px solid grey;
+}
+
+.employeview p {
+    font-size: 8px;
+}
+
+.detailbox {
+    background-color: rgba(246, 246, 246, 0.748);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.employeviewall {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    justify-content: end;
+}

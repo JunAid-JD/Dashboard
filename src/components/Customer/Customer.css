@@ -1,0 +1,39 @@
+
+
+
+.customer{
+font-family: 'Gilroy', sans-serif;
+}
+
+
+.customerbox{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1150px) {
+    #customersearch{
+         display: none;
+    }
+
+}
+
+
+@media screen and (max-width:700px) {
+.customerbox {
+        display: block;
+    }
+}

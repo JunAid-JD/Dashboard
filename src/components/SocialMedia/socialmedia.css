@@ -1,0 +1,30 @@
+#socialmediaiconsection{
+    display: flex;
+    gap: 1rem ;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+.socialmediacontent{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+@media screen and (max-width:950px) {
+.socialmediacontent {
+    flex-direction: column;
+}
+}
+
+
+@media screen and (max-width:650px) {
+
+    #socialmediasearch{
+        display: none;
+    }
+}

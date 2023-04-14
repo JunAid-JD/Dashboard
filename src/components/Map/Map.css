@@ -1,0 +1,38 @@
+
+
+/* 
+#map{
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;
+    border: 2px solid red;
+} */
+
+
+
+
+@media screen and (max-width:650px) {
+#map{
+    width: 75vw;
+    height: 400px;
+}
+}
+
+
+
+
+@media screen and (max-width:550px) {
+    #map {
+        width: 75vw;
+        height: 400px;
+    }
+}
+
+
+
+@media screen and (max-width:450px) {
+    #map {
+        width: 65vw;
+        height: 400px;
+    }
+}

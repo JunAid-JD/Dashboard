@@ -1,0 +1,238 @@
+.profile {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    align-items: center;
+    /* margin: 1rem 0; */
+    gap: .5rem ;
+}
+
+.profileleft {
+    font-size: 12px;
+    width: auto;
+}
+
+.profileleft p {
+    color: lightslategray;
+}
+
+.profileinfoheader {
+    background-color: rgb(214, 3, 3);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 60px;
+}
+
+.profileinfoimg img {
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    width: 80px;
+    height: 90px;
+}
+
+
+.profileinfodetail {
+    margin-left: 7rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.profileinfodetailheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+        flex-wrap: wrap;
+}
+
+.profileinfodetailtitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+        flex-wrap: wrap;
+}
+
+.assignedcolor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profileinfodetailform {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: baseline;
+    gap: 1rem;
+}
+
+.jobsheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+        flex-wrap: wrap;
+}
+
+.jobsdetail div {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin: .5rem 0;
+    padding: .8rem;
+    background-color: rgba(246, 246, 246, 0.748);
+    gap:1rem 0;
+}
+
+
+.timeoffheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+        flex-wrap: wrap;
+}
+
+.timeoffdetail {
+    display: grid;
+    place-items: baseline;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+
+.timedetail2 {
+    display: grid;
+    place-items: baseline;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+
+
+.timesheetheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+
+
+.timesheetheader div {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.timesheettime {
+    display: flex;
+    width: max-content;
+    gap: 10rem;
+}
+
+.timesheettime div {
+    display: flex;
+    gap: .2rem;
+}
+
+
+.timesheetbox {
+    display: flex;
+    align-items: center;
+}
+
+.timesheetbox span {
+    background-color: rgba(246, 246, 246, 0.748);
+    padding: .7rem;
+    margin: .5rem 0;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.jobtimeoff{
+    display: flex;
+    gap: .5rem;
+}
+
+.jobs{
+    width: 32vw;
+}
+.timeoff {
+    width: 32vw;
+}
+
+
+
+@media screen and (min-width:1400px) {
+    .profile {
+            display: grid;
+            grid-template-columns: 7fr 1fr;
+            margin: 1rem 0;
+        }
+        .profileleft {
+            width: auto;
+        }
+  .jobs{
+    width: 36vw;
+  }
+  .timeoff{
+    width: 36vw;
+  }
+}
+
+@media screen and (max-width:1200px) {
+    .profile {
+            grid-template-columns:  1fr;
+    }
+        .profileleft {
+            width: 80vw;
+        }
+}
+
+
+@media screen and (max-width:1000px) {
+.profileleft {
+        width: 85vw;
+    }
+}
+
+@media screen and (max-width:900px) {
+.jobtimeoff {
+    flex-direction: column;
+}
+}
+
+@media screen and (max-width:800px) {
+.profileleft {
+        width: 80vw;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .profileleft {
+            width: 75vw;
+        }
+.timesheettime {
+    gap:5rem;
+}
+.profileinfodetailform {
+        grid-template-columns: 1fr 1fr;
+}
+.timeoffdetail {
+        grid-template-columns: 1fr 1fr;
+}
+.timedetail2 {
+        grid-template-columns: 1fr 1fr;
+}
+}
+
+
+
+@media screen and (max-width:500px) {
+.profileinfodetailform {
+        grid-template-columns: 1fr;
+}
+}

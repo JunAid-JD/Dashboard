@@ -1,0 +1,318 @@
+
+
+.getstarted{
+    background-color: rgba(246, 246, 246, 0.748);
+     padding: 1.5rem;
+}
+
+.getstartedheader{
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    /* width: 100%; */
+        display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+.getstartedheadercontent{
+width: 41%;
+text-align: center;
+padding: 1.5rem 0;
+}
+
+.getstartedheadercontent h3{
+    margin-bottom: .7rem;
+}
+
+.skipgetstarted{
+display: flex;
+align-items: center;
+            font-size: 15px;
+position: absolute;
+    right: 1.5rem;
+    top: 4rem;
+}
+
+
+.getstartedbody{
+    display: grid;
+    grid-template-columns: 1fr 3.5fr;
+  margin-top: 1.5rem;
+  gap: 1.5rem;
+}
+
+.getstartedsidebar{
+    background-color: white;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.getstartedsidecard{
+    background-color: rgba(250, 250, 250, .9);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+.getstartedsidecard img{
+    width: 25px;
+}
+
+.cardh3{
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+
+.getstartedsidecard h3{
+    color: #c7c2c2;
+}
+
+#getstartedfirstcard{
+    background-color: rgba(246, 246, 246, 0.748);
+}
+
+
+/* get started content */
+
+.getstartedcontenth1{
+    font-weight: 900;
+        font-family: sans-serif;
+        font-size: 23px;
+}
+
+
+
+/* form */
+
+.getstartedcontentform{
+    margin-top: 1rem;
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+}
+
+.getstartedcontentform label{
+font-weight: 700;
+    font-family: system-ui;
+    font-size: 13px;
+    display: block;
+        width: 100%;
+        color: black;
+}
+
+.getStartedContenth3{
+        font-size: 17px;
+            font-weight: 700;
+            font-family: system-ui;
+            margin-bottom: .5rem;
+}
+
+.SetupAccountH1 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.SetupAccountP {
+    margin-bottom: 20px;
+    margin-top: -8px;
+    font-weight: 600;
+}
+
+.getStartedContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    text-align: left;
+        padding: 1rem;
+}
+
+
+
+
+input,
+textarea,
+select {
+    display: block;
+    width: 100%;
+    border: transparent;
+    background-color: rgb(237, 237, 237);
+    text-indent: 10px;
+    margin-bottom: 10px;
+    padding: 8px 0;
+    border-radius: 5px;
+}
+
+.FirstLastName {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.businessHours {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+
+
+.formSubmitBtn{
+  padding: 16px;
+}
+
+.companylogo {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px dashed grey;
+    border-radius: 10px;
+        gap: .5rem 0;
+}
+
+
+
+
+
+
+.getStartedHeader {
+    position: relative;
+}
+
+.skipGettingStarted {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    bottom: 22px;
+}
+
+.bold {
+    font-weight: 700;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query 1050 */
+
+
+@media screen and (max-width: 1050px) {
+      
+.getstartedsidecard h3 {
+    font-size: 14px;
+}
+.getstartedsidecard {
+        gap: 0.3rem;
+}
+
+.getstartedsidebar {
+    height: fit-content;
+}
+
+}
+
+/* media query 900 */
+
+@media screen and (max-width: 900px) {
+
+    .getstartedheadercontent {
+            width: 50%;
+    }
+        .skipgetstarted {
+            top: auto;
+        }
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+    .getstarted {
+          
+            padding: 1rem;
+        }
+
+
+    .getstartedheadercontent {
+            width: 70%;
+    }
+
+        .getstartedsidecard {
+            gap: .1rem
+        }
+
+
+/* .getstartedsidecard h3 {
+   display: none;
+} */
+
+.getstartedbody {
+
+        grid-template-columns: 1fr;
+}
+
+.getstartedsidecard {
+    margin: .3rem 0;
+}
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 650px) {
+
+.getStartedContent {
+        grid-template-columns: 1fr;
+    }
+        .getstartedheadercontent {
+            width: 90%;
+        }
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .getstartedheadercontent {
+            width: 95%;
+        }
+
+.getstarted {
+    padding: .5rem;
+}
+
+.getstartedbody {
+    gap: .5rem;
+}
+.FirstLastName {
+    grid-template-columns: 1fr ;
+    gap: 0;
+}
+
+
+}

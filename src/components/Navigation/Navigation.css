@@ -1,0 +1,144 @@
+.Navigation{
+ background-color: white;
+ border-radius: 10px;
+ padding: 1rem;
+ height: fit-content;
+}
+
+
+.navigationlogo{
+ /* text-align: center; */
+ margin-bottom: 1rem;
+}
+.navigationlogo img{
+    width: 150px;
+}
+
+#logonav{
+
+}
+
+#logosmallnav {
+    display: none;
+}
+
+.Navigation ul{
+    list-style: none;
+   display: grid;
+}
+
+.Navigation ul li{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1rem;
+    /* margin: 1rem 0; */
+}
+
+
+.Navigation ul li img{
+    width: 22px;
+}
+
+.getstartedmodal{
+        border-radius: 10px;
+        background: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem ;
+        margin-top: 3rem;
+}
+.getstartedmodal img{
+    width: 25px;
+}
+
+
+.getstartedmodalmobile{
+    position: relative;
+            top: 65%;
+            left: 32%;
+            transform: translate(-50%, -50%);
+            width: 32vw;
+        background-color: white;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 24;
+            padding:  32px
+}
+
+
+
+
+@media screen and (max-width:1100px) {
+    .Navigation {
+            padding: .5rem;
+        }
+                .navigationlogo img {
+                    width: 50px;
+                }
+
+#logonav {
+    display: none;
+}
+
+#logosmallnav {
+    display: block;
+}
+
+.Navigation ul {
+    place-items: center;
+}
+.Navigation  ul li>h3{
+    display: none;
+}
+.getstartedmodal h4 {
+    display: none;
+}
+    
+}
+
+
+ @media screen and (max-width: 920px) {
+
+.Navigation {
+    padding: 0.5rem !important;
+}
+
+ }
+
+  @media screen and (max-width: 700px) {
+
+    .getstartedmodalmobile{
+        left: 40%;
+        width: 35vw;
+    }
+
+  }
+
+
+  @media screen and (max-width: 550px) {
+    .Navigation ul li {
+        justify-content: center;
+    }
+        .Navigation ul {
+            display: block;
+        }
+
+        .addnewheading{
+            font-size: 25px;
+        }
+
+                 .getstartedmodalmobile {
+                     left:  55%;
+                     width: 50vw;
+            top: 60%;
+                 }
+
+
+                                 #addnewmobile {
+                                     width: 50vw;
+                                     padding: 22px;
+                                 }
+  }

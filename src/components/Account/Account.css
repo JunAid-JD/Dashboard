@@ -1,0 +1,209 @@
+.accountbilling {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    gap: 1rem;
+    font-size: 14px;
+}
+
+
+
+.paymentheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.paymentheader div {
+    display: "flex";
+    align-items: "center";
+    flex-wrap: wrap;
+}
+
+.paymentheader span {
+    background-color: rgba(246, 246, 246, 0.748);
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.history {
+    margin: 10px 0;
+}
+
+.historyheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.historyheaderleft {
+    display: flex;
+    gap: 7rem;
+}
+
+.historyheaderright {
+    display: flex;
+    gap: 5rem;
+}
+
+.historydetail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(246, 246, 246, 0.748);
+    margin: 5px 0;
+}
+
+.historydetailleft {
+    display: flex;
+    gap: 3rem;
+}
+
+.historydetailright {
+    display: flex;
+    gap: 4rem;
+}
+
+.accountsettingheader {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.accountsettingdetail {
+    padding: 5px;
+    color: lightslategray;
+}
+
+.accountsetting {
+    margin-top: 20px;
+    width: 50%;
+}
+
+.accountsetting h3 {
+    padding: 5px;
+}
+
+
+.billingdetail {
+    background-color: rgba(246, 246, 246, 0.748);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.billingdetail h4 {
+    font-size: 16px;
+}
+
+.billingdetailheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.currentplan {
+    margin-top: 10px;
+}
+
+.currentplan p {
+    color: lightslategray;
+}
+
+.currentplanheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.currentplanbtn {
+    margin-top: 20px;
+}
+
+
+
+
+.accountinfo {
+    margin-top: 20px;
+}
+
+.accountinfo p {
+    color: lightslategrey;
+    margin-bottom: 10px;
+}
+
+.accountform label {
+    font-weight: 700;
+}
+
+.accountform h4 {
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+
+.termcondition {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+.cartimg{
+    width: 230px;
+}
+
+.cartimg img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1100px) {
+.accountbilling {
+        grid-template-columns: 1fr;
+        }
+
+}
+
+
+@media screen and (max-width:800px) {
+.accountsetting {
+    width: 70%;
+}
+}
+
+
+
+@media screen and (max-width:600px) {
+    .accountsetting {
+        width: 100%;
+    }
+.historyheaderright{
+gap:1rem;
+}
+.historyheaderleft {
+    gap: 1rem;
+}
+.historydetailleft {
+    gap: 0.3rem;
+}
+.historydetailright {
+    gap: 0.3rem;
+}
+}
