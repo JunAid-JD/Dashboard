@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Dashboard/static/css/main.90311fec.css",
+    "main.js": "/Dashboard/static/js/main.d0a928a5.js",
+    "static/js/483.2917a40f.chunk.js": "/Dashboard/static/js/483.2917a40f.chunk.js",
+    "static/media/dashboard.png": "/Dashboard/static/media/dashboard.e30689fd89ae309d5b69.png",
+    "static/media/Map.png": "/Dashboard/static/media/Map.41a5840e8c3e33cff3e1.png",
+    "static/media/Gilroy-Light.otf": "/Dashboard/static/media/Gilroy-Light.cc7ab55d27205bd64001.otf",
+    "static/media/wochart.png": "/Dashboard/static/media/wochart.f29237b70951be3b51f3.png",
+    "static/media/atmcard.png": "/Dashboard/static/media/atmcard.b7355bc92feac2c7f32a.png",
+    "static/media/henry.png": "/Dashboard/static/media/henry.e181136696c0e9ed3e44.png",
+    "static/media/Yelp.png": "/Dashboard/static/media/Yelp.ad8417e1aad8494b2478.png",
+    "static/media/user.webp": "/Dashboard/static/media/user.9485fe3a0970d6d16579.webp",
+    "index.html": "/Dashboard/index.html",
+    "main.90311fec.css.map": "/Dashboard/static/css/main.90311fec.css.map",
+    "main.d0a928a5.js.map": "/Dashboard/static/js/main.d0a928a5.js.map",
+    "483.2917a40f.chunk.js.map": "/Dashboard/static/js/483.2917a40f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90311fec.css",
+    "static/js/main.d0a928a5.js"
+  ]
+}
